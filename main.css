@@ -1,0 +1,185 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  background-color: rgb(219, 219, 219);
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+.iniNav{
+  
+  margin: auto;
+  text-align: center;
+  background-color: grey;
+  text-align: center;
+  position: relative;
+  top: 385px;
+  width: 300px;
+}
+ul {
+ 
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    display: inline;
+    color: white;
+    padding: 6px 8px;
+    text-decoration: none;
+  }
+
+
+
+h1 {
+  background-color: grey;
+  color: black;
+    margin: auto;
+    text-align: center;
+
+}
+li img{
+  height: 40px;
+  width: 40px;
+  }
+.about {
+  color: white;
+  position: relative;
+  top: 150px;
+  text-align: center;
+  width: 300px;
+  height: 30px;
+}
+.aboutNav{
+margin-top: 80px;
+}
+.aboutMeNa{
+  position: relative;
+  top: 100px;
+  border-radius: 100%;
+  padding: 10px 0;
+  height: 35px;
+  width: 50px;
+  font-size: 10px;
+  
+}
+.bio{
+  background-color: rgb(105, 105, 105);
+  color: white;
+  position: relative;
+  top: 150px;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  font-size: 24px;
+  line-height: 30px;
+  
+}
+.bio p {
+  text-align-last: center;
+}
+
+.projects {
+margin-top: 10px;
+  text-align: center;
+}
+.projectsImg {
+
+  height: 300px;
+  width: 360px;
+}
+.projectsNav{
+margin-top: 50px;
+text-align: center;
+}
+.projectEx{
+  background-color: rgb(88, 88, 88);
+  margin: auto;
+  text-align: center;
+  width: 340px;
+  height: 300px;
+}
+@media only screen and (min-width: 768px) {
+  .iniNav{
+    text-align: center;
+    position: relative;
+    top: 390px;
+  }
+  .aboutNav{
+    margin-top: 250px;
+    }
+.left {
+  font-size: 60px;
+}
+.projectsNav > li > img {
+  height: 20px;
+  width: 20px;
+}
+li img{
+height: 40px;
+width: 40px;
+}
+li a{
+  padding: 8px 10px;
+  
+}
+
+h1 {
+  font-size: 30px;
+}
+.about{
+  background-color: grey;
+  font-size: 40px;
+  width: 300px;
+  height: 50px;
+}
+.bio {
+  font-size: 34px;
+  width: 500px;
+  line-height: 50px;
+}
+.projectsImg{
+  height: 500px;
+  width: 700px;
+}
+.projectEx{
+  width: 700px;
+  height: 400px;
+}
+}
+/* ipad pro */
+@media only screen and (min-width: 900px){
+.projectEx{
+  width: 1000px;
+  height: 600pxd;
+}
+}
+@media only screen and (min-width: 1025px) {
+
+  .bio {
+    width: 1500px;
+    height: 400px;
+  }
+  .aboutNav{
+    margin-top: 150px;
+    }
+    .aboutMeNa{
+      font-size: 30px;
+      padding: 10px 0;
+      height: 60px;
+      width: 60px;
+    }
+  .projectsImg {
+    height: 700px;
+    width: 1200px;
+  }
+  .projectEx{
+    width: 1400px;
+    height: 600px;
+  }
+}
