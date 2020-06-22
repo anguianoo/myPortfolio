@@ -2,7 +2,7 @@ function click(){
     
     $('ul').on('click', '.link', event => {
         event.preventDefault();
-        $('nav').addClass('topnav') ;
+        $('nav').addClass('.topnav') ;
 
         
     });
@@ -30,6 +30,7 @@ function showProjects(){
     click();
     $('ul').on('click', '.projects', event => {
         event.preventDefault();
+
         $('.projects-page').append(`
         <section class="projects">
         <h2>projects</h2>
