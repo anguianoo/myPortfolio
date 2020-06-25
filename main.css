@@ -76,6 +76,9 @@ margin-top: 10px;
 .projectsNav{
 text-align: center;
 }
+.hide{
+  visibility: hidden; 
+}
 @media only screen and (min-width: 768px) {
 .left {
   font-size: 60px;
