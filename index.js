@@ -1,39 +1,53 @@
-function click(){
-    
-    $('ul').on('click', '.link', event => {
-        event.preventDefault();
-        $('nav').addClass('topnav') ;
- 
-        
-    });
-}
+// function click(){
+//   $('ul').on('click', '.link', event => {
+//     event.preventDefault();
+//     $('.aboutmepage').load(about.html);
+//   })
+// };
+//   $('img').click(function(){
+//     $('.aboutmepage').load(aboutme.txt);
+//   });
+// }
 
 /*
 function navRouter(i) {
-    if (i.css('.about-page')) {
+    if (i.id(0)) {
       navAnimation('#0');
-      showDefine();
-    } else if (i.class('.projects-page')) {
+     // showAbout();
+    } else if (i.id(1)) {
       navAnimation('#1');
-      showProjects();
+      //showProjects();
     }
   }
 function navAnimation(selection){
+  $('ul').on('click', '.link', event => {
+    event.preventDefault();
+    $('nav').addClass('topnav') ;
+    $('h1').hide();
+    
     if (selection === '#0') {
-        $('#0').addClass('hide');
-        $('#1, #2').removeClass('hide');
-      } else if (selection === '#1') {
-        $('#1').addClass('hide');
-        $('#0, #2').removeClass('hide');
-      } 
+      //$('#1').addClass('hide');
+      $('#0').removeClass('hide');
+    } else if (selection === '#1') {
+     // $('#0').addClass('hide');
+     $('#1').removeClass('hide');
+    }
+    
+});
 }
-*/
+
+ 
+
+
+
 function showAbout(){
+  /*
     click();
     $('ul').on('click', '.aboutme', event => {
         event.preventDefault();
         $('.about-page').fadeIn();
-        $('')
+       // $('.projects-page').hide();
+       
         $('.about-page').append(
             `  <h1 class="about">This is me</h1>
                     <section class="bio">
@@ -42,18 +56,22 @@ function showAbout(){
                          I find web development interesting because 
                          I love to take on challenges as it excites me.
                          </p>
-                    </section>`
+                    </section>
+                    `
                             );
                             
     });
 
 }
+
 function showProjects(){
+  /*
     click();
     $('ul').on('click', '.projects', event => {
         event.preventDefault();
         $('.projects-page').fadeIn();
-        
+      //  $('.about-page').hide();
+      
         $('.projects-page').append(`
         <section class="projects">
         <h2>projects</h2>
@@ -63,10 +81,9 @@ function showProjects(){
         `)
     })
 }
+*/
 function make(){
-    navAnimation('#0');
-    
-    showAbout();
-    showProjects();
+    click();
+
 }
 make();

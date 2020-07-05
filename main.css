@@ -8,6 +8,22 @@ html{
   background-size: cover;
   height: 100%;
   overflow: hidden;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+.footer{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.anguiano:link{
+  text-decoration: none;
+  color: aliceblue;
+}
+.anguiano:visited{
+  text-decoration: none;
 }
 .nav{
   text-align: center;
@@ -15,6 +31,7 @@ html{
   top: 250px;
 }
 .topnav{
+  text-align: center;
   position: relative;
   top: 10px;
 }
@@ -35,16 +52,17 @@ ul {
 
 
 h1 {
-  color: black;
+  color: rgb(20, 94, 104);
     margin: auto;
     text-align: center;
+
 }
 li img{
   height: 40px;
   width: 40px;
   }
 .about {
-  color: white;
+  color: rgb(20, 94, 104);
   position: relative;
   top: 150px;
   text-align: center;
@@ -53,11 +71,12 @@ li img{
   position: relative;
   top: 150px;
   margin: auto;
-  text-align: center;
+  text-align: justify
   width: 300px;
   height: 50px;
   font-size: 24px;
   line-height: 30px;
+  color: rgb(50, 63, 80);
   
 }
 .bio p {
@@ -66,18 +85,26 @@ li img{
 
 .projects {
 margin-top: 10px;
-  text-align: center;
+text-align: center;
 }
 .projectsImg {
 
   height: 300px;
-  width: 360px;;
+  width: 360px;
 }
 .projectsNav{
 text-align: center;
 }
 .hide{
   visibility: hidden; 
+}
+li img:hover{
+  width: 50px;
+  height: 50px;
+}
+.projects-paragrapgh{
+  text-align: justify;
+
 }
 @media only screen and (min-width: 768px) {
 .left {
@@ -114,9 +141,7 @@ h1 {
   .bio {
     width: 900px;
   }
-  .projectsNav{
 
-  }
   .projectsImg {
     height: 700px;
     width: 1200px;
