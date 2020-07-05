@@ -71,7 +71,7 @@ li img{
   position: relative;
   top: 150px;
   margin: auto;
-  text-align: justify
+  text-align: justify;
   width: 300px;
   height: 50px;
   font-size: 24px;
@@ -98,7 +98,7 @@ text-align: center;
 .hide{
   visibility: hidden; 
 }
-li img:hover{
+.link img:hover{
   width: 50px;
   height: 50px;
 }
@@ -106,14 +106,27 @@ li img:hover{
   text-align: justify;
 
 }
+.repo-and-livepage{
+  text-decoration: none;
+}
+.repo-and-livepage > li {
+  display: inline;
+}
+.my-custom-scrollbar {
+  
+  height: 300px;
+  width: 360px;
+  overflow: auto;
+  margin: auto;
+}
 @media only screen and (min-width: 768px) {
 .left {
   font-size: 60px;
 }
-.projectsNav > li > img {
+/* .projectsNav > li > img {
   height: 20px;
   width: 20px;
-}
+} */
 li img{
 height: 40px;
 width: 40px;
@@ -131,19 +144,23 @@ h1 {
   width: 500px;
   line-height: 50px;
 }
-.projectsImg{
+/* .my-custom-scrollbar{
   height: 500px;
   width: 700px;
-}
+} */
 }
 @media only screen and (min-width: 900px) {
 
   .bio {
     width: 900px;
   }
-
+  .my-custom-scrollbar{
+    height: 500px;
+    width: 700px;
+  }
+/* 
   .projectsImg {
     height: 700px;
-    width: 1200px;
-  }
+    width: 700px;
+  } */
 }
