@@ -87,11 +87,7 @@ li img{
 margin-top: 10px;
 text-align: center;
 }
-.projectsImg {
 
-  height: 300px;
-  width: 360px;
-}
 .projectsNav{
 text-align: center;
 }
@@ -115,9 +111,14 @@ text-align: center;
 .my-custom-scrollbar {
   
   height: 300px;
-  width: 360px;
+  width: 320px;
   overflow: auto;
   margin: auto;
+}
+.projectsImg {
+
+  height: 300px;
+  width: 320px;
 }
 @media only screen and (min-width: 768px) {
 .left {
@@ -144,10 +145,14 @@ h1 {
   width: 500px;
   line-height: 50px;
 }
-/* .my-custom-scrollbar{
+.my-custom-scrollbar{
   height: 500px;
   width: 700px;
-} */
+} 
+.projectsImg {
+  height: 550px;
+  width: 700px;
+}
 }
 @media only screen and (min-width: 900px) {
 
@@ -156,11 +161,11 @@ h1 {
   }
   .my-custom-scrollbar{
     height: 500px;
-    width: 700px;
+    width: 1050px;
   }
-/* 
+
   .projectsImg {
     height: 700px;
-    width: 700px;
-  } */
+    width: 1040px;
+  } 
 }
