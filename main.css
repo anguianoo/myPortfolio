@@ -18,6 +18,9 @@ html{
   left: 0;
   bottom: 0;
 }
+.anguiano{
+  color black;
+}
 .anguiano:link{
   text-decoration: none;
   color: aliceblue;
