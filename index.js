@@ -8,6 +8,9 @@
 //     $('.aboutmepage').load(aboutme.txt);
 //   });
 // }
+// $('.projectsImg').click(function() {
+//   $('.scroll').animate({'scrollTop':'-=1200'});
+// });
 
 /*
 function navRouter(i) {
@@ -82,10 +85,13 @@ function showProjects(){
     })
 }
 */
-var myCustomScrollbar = document.querySelector('.my-custom-scrollbar');
-var ps = new PerfectScrollbar(myCustomScrollbar);
+function PerfectScrollbar(param) {
+  $(param).scroll();
+}
+let myCustomScrollbar = document.querySelector('.my-custom-scrollbar');
+let ps = new PerfectScrollbar(myCustomScrollbar);
 
-var scrollbarY = myCustomScrollbar.querySelector('.ps__rail-y');
+let scrollbarY = myCustomScrollbar.querySelector('.projectsImg');
 
 myCustomScrollbar.onscroll = function () {
   scrollbarY.style.cssText = `top: ${this.scrollTop}px!important; height: 400px; right: ${-this.scrollLeft}px`;
