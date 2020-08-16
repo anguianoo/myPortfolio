@@ -18,6 +18,9 @@ html{
   left: 0;
   bottom: 0;
 }
+.project-title{
+  padding-top: 20px;
+}
 .dropbtn{
 text-align: center;
 }
@@ -74,7 +77,7 @@ text-align: center;
 
   text-align: center;
   position: relative;
-  top: 250px;
+  top: 150px;
 }
 nav a{
 
@@ -111,26 +114,26 @@ li img{
   height: 40px;
   width: 40px;
   }
+  .about-section{
+    padding-top: 50px;
+  }
 .about {
   color: rgb(20, 94, 104);
-  position: relative;
-  top: 150px;
+  /* position: relative;
+  top: 150px; */
   text-align: center;
 }
 .bio{
-  position: relative;
-  top: 150px;
+  /* position: relative;
+  top: 150px; */
   margin: auto;
-  text-align: justify;
+  text-align:center;
   width: 300px;
   height: 50px;
   font-size: 24px;
   line-height: 30px;
   color: rgb(50, 63, 80);
   
-}
-.bio p {
-  text-align-last: left;
 }
 
 .projects {
@@ -161,7 +164,7 @@ text-align: center;
 .my-custom-scrollbar {
 
   height: 300px;
-  width: 320px;
+  width: 375px;
   overflow: auto;
   margin: auto;
 }
@@ -170,6 +173,7 @@ text-align: center;
   height: 300px;
   width: 320px;
 }
+
 @media only screen and (min-width: 768px) {
 .left {
   font-size: 60px;
@@ -195,6 +199,10 @@ h1 {
   width: 500px;
   line-height: 50px;
 }
+.bio p {
+  text-align: center;
+  
+}
 .my-custom-scrollbar{
   height: 500px;
   width: 700px;
@@ -206,6 +214,10 @@ h1 {
 }
 @media only screen and (min-width: 900px) {
 
+  li img{
+    height: 50px;
+    width: 50px;
+    }
   .bio {
     width: 900px;
   }
