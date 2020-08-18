@@ -7,7 +7,7 @@ html{
   background-color: rgb(219, 219, 219);
   background-size: cover;
   height: 100%;
-  overflow: hidden;
+  
   font-family: brandon-grotesque, sans-serif;
   font-style: normal;
   font-weight: 100;
@@ -73,20 +73,20 @@ text-align: center;
 .anguiano:visited{
   text-decoration: none;
 }
-.nav{
+/* .nav{
 
   text-align: center;
   position: relative;
   top: 150px;
-}
+} */
 nav a{
 
   text-align: center
 }
 .topnav{
   text-align: center;
-  position: relative;
-  top: 10px;
+  /* position: relative; */
+  /* top: 10px; */
 }
 ul {
  
@@ -114,14 +114,22 @@ li img{
   height: 40px;
   width: 40px;
   }
-  .about-section{
-    padding-top: 50px;
+  .about-img {
+    margin: auto;
+    display: block;
+    height: 200px;
+    width: 50%;
   }
+  /* .about-section{
+    padding-top: 25px;
+  } */
 .about {
   color: rgb(20, 94, 104);
   /* position: relative;
   top: 150px; */
+  padding-top: 20px;
   text-align: center;
+  font-size: 14px;
 }
 .bio{
   /* position: relative;
@@ -130,7 +138,7 @@ li img{
   text-align:center;
   width: 300px;
   height: 50px;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 30px;
   color: rgb(50, 63, 80);
   
@@ -170,7 +178,7 @@ text-align: center;
 }
 .projectsImg {
 
-  height: 300px;
+  height: 320px;
   width: 320px;
 }
 
@@ -194,8 +202,11 @@ li a{
 h1 {
   font-size: 30px;
 }
+.about{
+  font-size: 24px;
+}
 .bio {
-  font-size: 34px;
+  font-size: 24px;
   width: 500px;
   line-height: 50px;
 }
@@ -207,9 +218,16 @@ h1 {
   height: 500px;
   width: 700px;
 } 
+
 .projectsImg {
   height: 550px;
   width: 700px;
+}
+.about-img {
+  margin: auto;
+ 
+  height: 400px;
+  width: 50%;
 }
 }
 @media only screen and (min-width: 900px) {
@@ -217,6 +235,11 @@ h1 {
   li img{
     height: 50px;
     width: 50px;
+    }
+    .about-img{
+      width: 300px;
+      height: 400px;
+      
     }
   .bio {
     width: 900px;
