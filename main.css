@@ -28,10 +28,10 @@ text-align: center;
 /* Dropdown button */
 .dropdown, .dropbtn {
 
-  font-size: 16px;
+  
   border: none;
   outline: none;
-  color: #000000;
+  
 
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
