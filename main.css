@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+.bckground {
+  background-image: url("img/water.jpg");
+  background-size: 500px;
+  border-radius: 5px;
+  
+}
+
 html{
   background-color: rgb(219, 219, 219);
   background-size: cover;
@@ -24,11 +31,30 @@ html{
 .dropbtn{
 text-align: center;
 }
+.dropdown2{
+  border: none;
+  outline: none;
+  
 
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: auto; /* Important for vertical align on mobile phones */
+
+}
+.dropdown-content2{
+  display: none;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+  position: fixed;
+}
+.dropdown-content2 a{
+display: inline-block;
+}
+.dropdown2:hover .dropdown-content2 {  
+  display: inline-block;
+}
 /* Dropdown button */
 .dropdown, .dropbtn {
-
-  
   border: none;
   outline: none;
   
@@ -39,8 +65,8 @@ text-align: center;
 }
 .dropdown-content {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
+  position: relative;
+  
   min-width: 16px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -62,9 +88,11 @@ text-align: center;
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: inline-block;
+
 }
 .anguiano{
   color: black;
+  margin: 30px;
 }
 .anguiano:link{
   text-decoration: none;
@@ -85,8 +113,7 @@ nav a{
 }
 .topnav{
   text-align: center;
-  /* position: relative; */
-  /* top: 10px; */
+
 }
 ul {
  
@@ -117,8 +144,9 @@ li img{
   .about-img {
     margin: auto;
     display: block;
-    height: 200px;
-    width: 50%;
+    height: 200px; 
+     width: 50%; 
+    border-radius: 50px;
   }
   /* .about-section{
     padding-top: 25px;
@@ -182,7 +210,16 @@ text-align: center;
   width: 320px;
 }
 
+.github-logo{
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
 @media only screen and (min-width: 768px) {
+  .bckground{
+    background-size: 1000px;
+  }
+
 .left {
   font-size: 60px;
 }
@@ -229,6 +266,11 @@ h1 {
   height: 400px;
   width: 50%;
 }
+.dropdown-content {
+position: absolute;
+
+}
+
 }
 @media only screen and (min-width: 900px) {
 
